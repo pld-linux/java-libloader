@@ -54,7 +54,7 @@ ln -sf %{_javadir}/ant lib/ant-contrib
 
 %build
 build-jar-repository -s -p lib libbase commons-logging-api
-%ant jar javadoc
+%ant jar %{?with_javadoc:javadoc}
 
 %install
 rm -rf $RPM_BUILD_ROOT
