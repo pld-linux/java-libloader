@@ -3,7 +3,6 @@
 %bcond_without	javadoc		# don't build javadoc
 
 %define		srcname	libloader
-%include	/usr/lib/rpm/macros.java
 Summary:	Resource Loading Framework
 Name:		java-libloader
 Version:	1.1.3
